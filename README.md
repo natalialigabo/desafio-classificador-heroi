@@ -1,30 +1,35 @@
 # 🦸‍♂️ Desafio Classificador de Nível de Herói
 
-**O Que foi utilizado**
+Este repositório contém a solução para o desafio de código da **DIO (Digital Innovation One)**. O projeto foi expandido para demonstrar duas abordagens diferentes de resolução: interativa e processamento em lista.
 
-- [x] Variáveis
-- [x] Operadores
-- [x] Laços de repetição
-- [x] Estruturas de decisões
+## 📂 Estrutura do Projeto
 
-## 💻 Sobre o projeto
+O projeto foi dividido em dois scripts para demonstrar diferentes competências:
 
-Este projeto foi desenvolvido como parte do desafio de código do Bootcamp da **DIO (Digital Innovation One)**. O objetivo foi criar uma lógica de programação para classificar o nível de um herói com base em sua quantidade de experiência (XP).
+1.  **`Nivel_do_Heroi.js` (Modo Interativo):**
+    * Utiliza a biblioteca `prompt-sync` para receber dados do usuário via terminal.
+    * Permite digitar o nome e XP de um herói específico.
+    * Foco em: Entrada/Saída de dados e Condicionais.
 
-A solução utiliza a linguagem **JavaScript** rodando via Node.js, implementando conceitos fundamentais de lógica de programação.
+2.  **`nivel_do_heroi_nome.js` (Modo Lista/Array):**
+    * Utiliza uma lista pré-definida de heróis e seus XPs.
+    * Classifica automaticamente múltiplos heróis em sequência.
+    * Foco em: Estruturas de Repetição (Laços), Arrays e Automação.
 
-## 🛠 Tecnologias
+## 🛠 Tecnologias Utilizadas
 
-- **JavaScript**
+- **JavaScript** (ES6+)
 - **Node.js**
 - **Git & GitHub**
 
-## 🚀 Como executar
+## 🚀 Como Executar
 
-1. Clone o repositório ou baixe o código.
-2. Certifique-se de ter o [Node.js](https://nodejs.org/) instalado.
-3. Se estiver usando a versão interativa com `prompt-sync`:
+Certifique-se de ter o [Node.js](https://nodejs.org/) instalado em sua máquina.
 
-  ```bash
-  
-   npm install prompt-sync
+### Pré-requisitos
+
+Como utilizamos entrada de dados no modo interativo, instale a dependência necessária:
+
+```bash
+
+npm install prompt-sync
